@@ -115,5 +115,5 @@ button{
   background-color: rgb(0, 0, 0);
   opacity: 1;
   transition: opacity 1s;
-  pointer-events: none;
+  pointer-events: none
 }
