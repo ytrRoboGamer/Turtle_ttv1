@@ -47,7 +47,7 @@ button{
 .accountsDiv{
   background: rgba(100, 100, 100, 0.5);
   --width: 575px;
-  --height: 95vh;
+  --height: 900px;
   width: var(--width);
   height: var(--height);
   margin-left: calc(50vw - (var(--width) / 2));
@@ -70,12 +70,14 @@ button{
 }
 
 .account{
+  --width: 500px;
+  height: 70px;
+  width: var(--width);
+  margin-left: calc(575px / 2 - (var(--width) / 2));
+  justify-content: center;
   position: relative;
   display: flex;
-  justify-content: center;
   background: rgba(122, 122, 122, 0.5);
-  height: 70px;
-  width: 500px;
   border-radius: 100px;
   cursor: pointer;
   justify-self: center;
